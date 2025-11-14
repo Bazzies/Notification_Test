@@ -1,0 +1,112 @@
+2025-11-14T15:05:49 [INFO] Agent 초기화 완료: TARGET_URL=https://example.com, BACKEND_URL=http://localhost:8080, INTERVAL=60초
+2025-11-14T15:05:49 [INFO] Agent 시작: 무한 루프 모드
+2025-11-14T15:05:49 [INFO] 점검 주기: 60초
+2025-11-14T15:05:49 [INFO] ============================================================
+2025-11-14T15:05:49 [INFO] URL 점검 시작
+2025-11-14T15:05:50 [INFO] URL 점검 완료: Status=200, Latency=904ms
+2025-11-14T15:05:51 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=904ms
+2025-11-14T15:05:51 [INFO] 점검 및 전송 완료
+2025-11-14T15:05:51 [INFO] ============================================================
+2025-11-14T15:05:51 [INFO] 60초 대기 중...
+2025-11-14T15:06:51 [INFO] ============================================================
+2025-11-14T15:06:51 [INFO] URL 점검 시작
+2025-11-14T15:07:01 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com', port=443): Read timed out. (read timeout=10)
+2025-11-14T15:07:01 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-14T15:07:01 [INFO] ============================================================
+2025-11-14T15:07:01 [INFO] 60초 대기 중...
+2025-11-14T15:08:01 [INFO] ============================================================
+2025-11-14T15:08:01 [INFO] URL 점검 시작
+2025-11-14T15:08:07 [INFO] URL 점검 완료: Status=200, Latency=5786ms
+2025-11-14T15:08:07 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=5786ms
+2025-11-14T15:08:07 [INFO] 점검 및 전송 완료
+2025-11-14T15:08:07 [INFO] ============================================================
+2025-11-14T15:08:07 [INFO] 60초 대기 중...
+2025-11-14T15:09:07 [INFO] ============================================================
+2025-11-14T15:09:07 [INFO] URL 점검 시작
+2025-11-14T15:09:08 [INFO] URL 점검 완료: Status=200, Latency=1047ms
+2025-11-14T15:09:08 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=1047ms
+2025-11-14T15:09:08 [INFO] 점검 및 전송 완료
+2025-11-14T15:09:08 [INFO] ============================================================
+2025-11-14T15:09:08 [INFO] 60초 대기 중...
+2025-11-14T15:10:08 [INFO] ============================================================
+2025-11-14T15:10:08 [INFO] URL 점검 시작
+2025-11-14T15:10:08 [INFO] URL 점검 완료: Status=200, Latency=660ms
+2025-11-14T15:10:08 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=660ms
+2025-11-14T15:10:08 [INFO] 점검 및 전송 완료
+2025-11-14T15:10:08 [INFO] ============================================================
+2025-11-14T15:10:08 [INFO] 60초 대기 중...
+2025-11-14T15:11:08 [INFO] ============================================================
+2025-11-14T15:11:08 [INFO] URL 점검 시작
+2025-11-14T15:11:09 [INFO] URL 점검 완료: Status=200, Latency=655ms
+2025-11-14T15:11:09 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=655ms
+2025-11-14T15:11:09 [INFO] 점검 및 전송 완료
+2025-11-14T15:11:09 [INFO] ============================================================
+2025-11-14T15:11:09 [INFO] 60초 대기 중...
+2025-11-14T15:12:09 [INFO] ============================================================
+2025-11-14T15:12:09 [INFO] URL 점검 시작
+2025-11-14T15:12:10 [INFO] URL 점검 완료: Status=200, Latency=625ms
+2025-11-14T15:12:10 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=625ms
+2025-11-14T15:12:10 [INFO] 점검 및 전송 완료
+2025-11-14T15:12:10 [INFO] ============================================================
+2025-11-14T15:12:10 [INFO] 60초 대기 중...
+2025-11-14T15:13:10 [INFO] ============================================================
+2025-11-14T15:13:10 [INFO] URL 점검 시작
+2025-11-14T15:13:12 [INFO] URL 점검 완료: Status=200, Latency=2675ms
+2025-11-14T15:13:12 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=2675ms
+2025-11-14T15:13:12 [INFO] 점검 및 전송 완료
+2025-11-14T15:13:12 [INFO] ============================================================
+2025-11-14T15:13:12 [INFO] 60초 대기 중...
+2025-11-14T15:14:12 [INFO] ============================================================
+2025-11-14T15:14:12 [INFO] URL 점검 시작
+2025-11-14T15:14:13 [INFO] URL 점검 완료: Status=200, Latency=598ms
+2025-11-14T15:14:13 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=598ms
+2025-11-14T15:14:13 [INFO] 점검 및 전송 완료
+2025-11-14T15:14:13 [INFO] ============================================================
+2025-11-14T15:14:13 [INFO] 60초 대기 중...
+2025-11-14T15:15:13 [INFO] ============================================================
+2025-11-14T15:15:13 [INFO] URL 점검 시작
+2025-11-14T15:15:14 [INFO] URL 점검 완료: Status=200, Latency=647ms
+2025-11-14T15:15:14 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=647ms
+2025-11-14T15:15:14 [INFO] 점검 및 전송 완료
+2025-11-14T15:15:14 [INFO] ============================================================
+2025-11-14T15:15:14 [INFO] 60초 대기 중...
+2025-11-14T15:15:41 [INFO] Agent 종료: 사용자 중단
+2025-11-14T20:56:52 [INFO] Agent 초기화 완료: TARGET_URL=https://example.com1, BACKEND_URL=http://localhost:8080, INTERVAL=60초
+2025-11-14T20:56:52 [INFO] Agent 시작: 무한 루프 모드
+2025-11-14T20:56:52 [INFO] 점검 주기: 60초
+2025-11-14T20:56:52 [INFO] ============================================================
+2025-11-14T20:56:52 [INFO] URL 점검 시작
+2025-11-14T20:56:52 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com1', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x101bb0910>: Failed to resolve 'example.com1' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-14T20:56:52 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-14T20:56:52 [INFO] ============================================================
+2025-11-14T20:56:52 [INFO] 60초 대기 중...
+2025-11-14T20:57:52 [INFO] ============================================================
+2025-11-14T20:57:52 [INFO] URL 점검 시작
+2025-11-14T20:57:52 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com1', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x101bd13a0>: Failed to resolve 'example.com1' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-14T20:57:52 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-14T20:57:52 [INFO] ============================================================
+2025-11-14T20:57:52 [INFO] 60초 대기 중...
+2025-11-14T20:58:52 [INFO] ============================================================
+2025-11-14T20:58:52 [INFO] URL 점검 시작
+2025-11-14T20:58:52 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com1', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x101bd1d60>: Failed to resolve 'example.com1' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-14T20:58:52 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-14T20:58:52 [INFO] ============================================================
+2025-11-14T20:58:52 [INFO] 60초 대기 중...
+2025-11-14T20:59:52 [INFO] ============================================================
+2025-11-14T20:59:52 [INFO] URL 점검 시작
+2025-11-14T20:59:52 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com1', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x101bd16d0>: Failed to resolve 'example.com1' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-14T20:59:52 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-14T20:59:52 [INFO] ============================================================
+2025-11-14T20:59:52 [INFO] 60초 대기 중...
+2025-11-14T21:00:52 [INFO] ============================================================
+2025-11-14T21:00:52 [INFO] URL 점검 시작
+2025-11-14T21:00:52 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com1', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x101b9cbe0>: Failed to resolve 'example.com1' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-14T21:00:52 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-14T21:00:52 [INFO] ============================================================
+2025-11-14T21:00:52 [INFO] 60초 대기 중...
+2025-11-14T21:01:52 [INFO] ============================================================
+2025-11-14T21:01:52 [INFO] URL 점검 시작
+2025-11-14T21:01:52 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com1', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x101bb0070>: Failed to resolve 'example.com1' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-14T21:01:52 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-14T21:01:52 [INFO] ============================================================
+2025-11-14T21:01:52 [INFO] 60초 대기 중...

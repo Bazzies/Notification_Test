@@ -1,0 +1,163 @@
+2025-11-14T14:46:33.391+09:00  INFO 61112 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : Starting NotificationTestApplication using Java 17.0.9 with PID 61112 (/Users/byoungjae/Desktop/DCLAB/study/NotificationTest/build/classes/java/main started by byoungjae in /Users/byoungjae/Desktop/DCLAB/study/NotificationTest)
+2025-11-14T14:46:33.392+09:00  INFO 61112 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-11-14T14:46:33.968+09:00  INFO 61112 --- [NotificationTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-14T14:46:34.007+09:00  INFO 61112 --- [NotificationTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+2025-11-14T14:46:34.325+09:00  INFO 61112 --- [NotificationTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-14T14:46:34.333+09:00  INFO 61112 --- [NotificationTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-14T14:46:34.333+09:00  INFO 61112 --- [NotificationTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-14T14:46:34.356+09:00  INFO 61112 --- [NotificationTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-14T14:46:34.357+09:00  INFO 61112 --- [NotificationTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 922 ms
+2025-11-14T14:46:34.432+09:00  INFO 61112 --- [NotificationTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-14T14:46:34.459+09:00  INFO 61112 --- [NotificationTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-14T14:46:34.475+09:00  INFO 61112 --- [NotificationTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-14T14:46:34.635+09:00  INFO 61112 --- [NotificationTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-14T14:46:34.654+09:00  INFO 61112 --- [NotificationTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-14T14:46:34.751+09:00  INFO 61112 --- [NotificationTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6723cce7
+2025-11-14T14:46:34.752+09:00  INFO 61112 --- [NotificationTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-14T14:46:34.809+09:00  INFO 61112 --- [NotificationTest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-14T14:46:35.272+09:00  INFO 61112 --- [NotificationTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-14T14:46:35.398+09:00  INFO 61112 --- [NotificationTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T14:46:35.622+09:00  WARN 61112 --- [NotificationTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-14T14:46:35.830+09:00  INFO 61112 --- [NotificationTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-14T14:46:35.837+09:00  INFO 61112 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : Started NotificationTestApplication in 2.781 seconds (process running for 3.094)
+2025-11-14T14:47:49.497+09:00  INFO 61112 --- [NotificationTest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-14T14:47:49.500+09:00  INFO 61112 --- [NotificationTest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-14T14:47:49.503+09:00  INFO 61112 --- [NotificationTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T14:47:49.504+09:00  INFO 61112 --- [NotificationTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-14T14:47:49.509+09:00  INFO 61112 --- [NotificationTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-14T14:47:51.362+09:00  INFO 61304 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : Starting NotificationTestApplication using Java 17.0.9 with PID 61304 (/Users/byoungjae/Desktop/DCLAB/study/NotificationTest/build/classes/java/main started by byoungjae in /Users/byoungjae/Desktop/DCLAB/study/NotificationTest)
+2025-11-14T14:47:51.364+09:00  INFO 61304 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-11-14T14:47:51.700+09:00  INFO 61304 --- [NotificationTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-14T14:47:51.735+09:00  INFO 61304 --- [NotificationTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 3 JPA repository interfaces.
+2025-11-14T14:47:52.001+09:00  INFO 61304 --- [NotificationTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-14T14:47:52.009+09:00  INFO 61304 --- [NotificationTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-14T14:47:52.009+09:00  INFO 61304 --- [NotificationTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-14T14:47:52.033+09:00  INFO 61304 --- [NotificationTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-14T14:47:52.034+09:00  INFO 61304 --- [NotificationTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 648 ms
+2025-11-14T14:47:52.106+09:00  INFO 61304 --- [NotificationTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-14T14:47:52.132+09:00  INFO 61304 --- [NotificationTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-14T14:47:52.148+09:00  INFO 61304 --- [NotificationTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-14T14:47:52.311+09:00  INFO 61304 --- [NotificationTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-14T14:47:52.329+09:00  INFO 61304 --- [NotificationTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-14T14:47:52.417+09:00  INFO 61304 --- [NotificationTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@182e4365
+2025-11-14T14:47:52.418+09:00  INFO 61304 --- [NotificationTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-14T14:47:52.464+09:00  INFO 61304 --- [NotificationTest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-14T14:47:52.939+09:00  INFO 61304 --- [NotificationTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-14T14:47:52.978+09:00  INFO 61304 --- [NotificationTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T14:47:53.205+09:00  WARN 61304 --- [NotificationTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-14T14:47:53.411+09:00  INFO 61304 --- [NotificationTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-14T14:47:53.417+09:00  INFO 61304 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : Started NotificationTestApplication in 2.308 seconds (process running for 2.843)
+2025-11-14T14:48:29.880+09:00  INFO 61304 --- [NotificationTest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-14T14:48:29.884+09:00  INFO 61304 --- [NotificationTest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-14T14:48:29.887+09:00  INFO 61304 --- [NotificationTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T14:48:29.888+09:00  INFO 61304 --- [NotificationTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-14T14:48:29.891+09:00  INFO 61304 --- [NotificationTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-14T14:48:31.239+09:00  INFO 61326 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : Starting NotificationTestApplication using Java 17.0.9 with PID 61326 (/Users/byoungjae/Desktop/DCLAB/study/NotificationTest/build/classes/java/main started by byoungjae in /Users/byoungjae/Desktop/DCLAB/study/NotificationTest)
+2025-11-14T14:48:31.240+09:00  INFO 61326 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-11-14T14:48:31.529+09:00  INFO 61326 --- [NotificationTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-14T14:48:31.555+09:00  INFO 61326 --- [NotificationTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2025-11-14T14:48:31.782+09:00  INFO 61326 --- [NotificationTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-14T14:48:31.789+09:00  INFO 61326 --- [NotificationTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-14T14:48:31.789+09:00  INFO 61326 --- [NotificationTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-14T14:48:31.809+09:00  INFO 61326 --- [NotificationTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-14T14:48:31.809+09:00  INFO 61326 --- [NotificationTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 553 ms
+2025-11-14T14:48:31.875+09:00  INFO 61326 --- [NotificationTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-14T14:48:31.899+09:00  INFO 61326 --- [NotificationTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-14T14:48:31.913+09:00  INFO 61326 --- [NotificationTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-14T14:48:32.044+09:00  INFO 61326 --- [NotificationTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-14T14:48:32.058+09:00  INFO 61326 --- [NotificationTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-14T14:48:32.135+09:00  INFO 61326 --- [NotificationTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@131ba005
+2025-11-14T14:48:32.136+09:00  INFO 61326 --- [NotificationTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-14T14:48:32.177+09:00  INFO 61326 --- [NotificationTest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-14T14:48:32.562+09:00  INFO 61326 --- [NotificationTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-14T14:48:32.675+09:00  INFO 61326 --- [NotificationTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T14:48:32.877+09:00  WARN 61326 --- [NotificationTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-14T14:48:33.056+09:00  INFO 61326 --- [NotificationTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-14T14:48:33.062+09:00  INFO 61326 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : Started NotificationTestApplication in 2.011 seconds (process running for 2.231)
+2025-11-14T15:05:50.797+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-14T15:05:50.798+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-14T15:05:50.801+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-11-14T15:05:51.021+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-1] o.e.n.controller.EventController         : 이벤트 수신 및 처리 완료: URL=https://example.com, Status=200, Latency=904ms
+2025-11-14T15:08:07.043+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-3] o.e.n.service.EventService               : 비정상 상태 감지: URL=https://example.com, Status=200, Latency=5786ms
+2025-11-14T15:08:07.049+09:00  INFO 61326 --- [NotificationTest] [notification-1] o.e.n.service.NotificationService        : 알림 전송 시작: URL=https://example.com, Status=200, Latency=5786ms
+2025-11-14T15:08:07.060+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-3] o.e.n.controller.EventController         : 이벤트 수신 및 처리 완료: URL=https://example.com, Status=200, Latency=5786ms
+2025-11-14T15:08:11.560+09:00  INFO 61326 --- [NotificationTest] [notification-1] o.e.n.service.NotificationService        : 이메일 전송 완료: 수신자=alert@example.com, 시각=2025-11-14T06:08:11.559864Z
+2025-11-14T15:08:11.560+09:00  INFO 61326 --- [NotificationTest] [notification-1] o.e.n.service.NotificationService        : Email successfully received at 2025-11-14T06:08:11.560810Z
+2025-11-14T15:08:11.589+09:00  INFO 61326 --- [NotificationTest] [notification-1] o.e.n.service.NotificationService        : NotificationLog 저장됨: Status=SENT, NotificationId=1
+2025-11-14T15:09:08.144+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-5] o.e.n.controller.EventController         : 이벤트 수신 및 처리 완료: URL=https://example.com, Status=200, Latency=1047ms
+2025-11-14T15:10:08.840+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-7] o.e.n.service.EventService               : 정상 상태로 복구: URL=https://example.com
+2025-11-14T15:10:08.850+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-7] o.e.n.controller.EventController         : 이벤트 수신 및 처리 완료: URL=https://example.com, Status=200, Latency=660ms
+2025-11-14T15:11:09.547+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-9] o.e.n.controller.EventController         : 이벤트 수신 및 처리 완료: URL=https://example.com, Status=200, Latency=655ms
+2025-11-14T15:12:10.211+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-1] o.e.n.controller.EventController         : 이벤트 수신 및 처리 완료: URL=https://example.com, Status=200, Latency=625ms
+2025-11-14T15:13:12.926+09:00  INFO 61326 --- [NotificationTest] [notification-2] o.e.n.service.NotificationService        : 알림 전송 시작: URL=https://example.com, Status=200, Latency=2675ms
+2025-11-14T15:13:12.947+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-3] o.e.n.controller.EventController         : 이벤트 수신 및 처리 완료: URL=https://example.com, Status=200, Latency=2675ms
+2025-11-14T15:13:18.240+09:00  INFO 61326 --- [NotificationTest] [notification-2] o.e.n.service.NotificationService        : 이메일 전송 완료: 수신자=alert@example.com, 시각=2025-11-14T06:13:18.240855Z
+2025-11-14T15:13:18.241+09:00  INFO 61326 --- [NotificationTest] [notification-2] o.e.n.service.NotificationService        : Email successfully received at 2025-11-14T06:13:18.241273Z
+2025-11-14T15:13:18.260+09:00  INFO 61326 --- [NotificationTest] [notification-2] o.e.n.service.NotificationService        : NotificationLog 저장됨: Status=SENT, NotificationId=1
+2025-11-14T15:14:13.578+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-5] o.e.n.service.EventService               : 정상 상태로 복구: URL=https://example.com
+2025-11-14T15:14:13.590+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-5] o.e.n.controller.EventController         : 이벤트 수신 및 처리 완료: URL=https://example.com, Status=200, Latency=598ms
+2025-11-14T15:15:14.297+09:00  INFO 61326 --- [NotificationTest] [http-nio-8080-exec-7] o.e.n.controller.EventController         : 이벤트 수신 및 처리 완료: URL=https://example.com, Status=200, Latency=647ms
+2025-11-14T20:17:58.217+09:00  WARN 61326 --- [NotificationTest] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s363ms).
+2025-11-14T20:22:14.104+09:00  WARN 61326 --- [NotificationTest] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m15s887ms).
+2025-11-14T20:27:56.699+09:00  WARN 61326 --- [NotificationTest] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m5s355ms).
+2025-11-14T20:29:25.207+09:00  WARN 61326 --- [NotificationTest] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s508ms).
+2025-11-14T20:30:50.741+09:00  WARN 61326 --- [NotificationTest] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s534ms).
+2025-11-14T20:33:50.568+09:00  WARN 61326 --- [NotificationTest] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m59s827ms).
+2025-11-14T20:35:59.560+09:00  WARN 61326 --- [NotificationTest] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m8s992ms).
+2025-11-14T20:40:55.113+09:00  WARN 61326 --- [NotificationTest] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m55s553ms).
+2025-11-14T20:50:34.490+09:00  WARN 61326 --- [NotificationTest] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m39s347ms).
+2025-11-14T20:50:53.119+09:00  INFO 61326 --- [NotificationTest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-14T20:50:53.124+09:00  INFO 61326 --- [NotificationTest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-14T20:50:53.128+09:00  INFO 61326 --- [NotificationTest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T20:50:53.131+09:00  INFO 61326 --- [NotificationTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-14T20:50:53.133+09:00  INFO 61326 --- [NotificationTest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-14T20:57:01.283+09:00  INFO 75375 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : Starting NotificationTestApplication using Java 17.0.9 with PID 75375 (/Users/byoungjae/Desktop/DCLAB/study/NotificationTest/build/classes/java/main started by byoungjae in /Users/byoungjae/Desktop/DCLAB/study/NotificationTest)
+2025-11-14T20:57:01.285+09:00  INFO 75375 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-11-14T20:57:01.618+09:00  INFO 75375 --- [NotificationTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-14T20:57:01.647+09:00  INFO 75375 --- [NotificationTest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+2025-11-14T20:57:01.906+09:00  INFO 75375 --- [NotificationTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-14T20:57:01.913+09:00  INFO 75375 --- [NotificationTest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-14T20:57:01.914+09:00  INFO 75375 --- [NotificationTest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-14T20:57:01.936+09:00  INFO 75375 --- [NotificationTest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-14T20:57:01.936+09:00  INFO 75375 --- [NotificationTest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 633 ms
+2025-11-14T20:57:02.014+09:00  INFO 75375 --- [NotificationTest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-14T20:57:02.046+09:00  INFO 75375 --- [NotificationTest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-14T20:57:02.063+09:00  INFO 75375 --- [NotificationTest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-14T20:57:02.217+09:00  INFO 75375 --- [NotificationTest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-14T20:57:02.233+09:00  INFO 75375 --- [NotificationTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-14T20:57:02.318+09:00  INFO 75375 --- [NotificationTest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52d9d817
+2025-11-14T20:57:02.319+09:00  INFO 75375 --- [NotificationTest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-14T20:57:02.379+09:00  INFO 75375 --- [NotificationTest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-14T20:57:02.823+09:00  INFO 75375 --- [NotificationTest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-14T20:57:02.861+09:00  INFO 75375 --- [NotificationTest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T20:57:03.106+09:00  WARN 75375 --- [NotificationTest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-14T20:57:03.301+09:00  INFO 75375 --- [NotificationTest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-14T20:57:03.306+09:00  INFO 75375 --- [NotificationTest] [main] o.e.n.NotificationTestApplication        : Started NotificationTestApplication in 2.238 seconds (process running for 2.525)
