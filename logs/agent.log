@@ -110,3 +110,771 @@
 2025-11-14T21:01:52 [ERROR] URL 점검 실패로 인해 전송하지 않음
 2025-11-14T21:01:52 [INFO] ============================================================
 2025-11-14T21:01:52 [INFO] 60초 대기 중...
+2025-11-15T13:06:38 [INFO] Agent 초기화 완료: TARGET_URL=https://example.com1, BACKEND_URL=http://localhost:8080, INTERVAL=60초
+2025-11-15T13:06:38 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:06:38 [INFO] 점검 주기: 60초
+2025-11-15T13:06:38 [INFO] ============================================================
+2025-11-15T13:06:38 [INFO] URL 점검 시작
+2025-11-15T13:06:38 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com1', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x101990d90>: Failed to resolve 'example.com1' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-15T13:06:38 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:06:38 [INFO] ============================================================
+2025-11-15T13:06:38 [INFO] 60초 대기 중...
+2025-11-15T13:07:38 [INFO] ============================================================
+2025-11-15T13:07:38 [INFO] URL 점검 시작
+2025-11-15T13:07:38 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com1', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1019f1730>: Failed to resolve 'example.com1' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-15T13:07:38 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:07:38 [INFO] ============================================================
+2025-11-15T13:07:38 [INFO] 60초 대기 중...
+2025-11-15T13:08:16 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:08:17 [INFO] Agent 초기화 완료: TARGET_URL=https://example.com1, BACKEND_URL=http://localhost:8080, INTERVAL=60초
+2025-11-15T13:08:17 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:08:17 [INFO] 점검 주기: 60초
+2025-11-15T13:08:17 [INFO] ============================================================
+2025-11-15T13:08:17 [INFO] URL 점검 시작
+2025-11-15T13:08:17 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com1', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x105098d90>: Failed to resolve 'example.com1' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-15T13:08:17 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:08:17 [INFO] ============================================================
+2025-11-15T13:08:17 [INFO] 60초 대기 중...
+2025-11-15T13:09:17 [INFO] ============================================================
+2025-11-15T13:09:17 [INFO] URL 점검 시작
+2025-11-15T13:09:17 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com1', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1050f9730>: Failed to resolve 'example.com1' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-15T13:09:17 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:09:17 [INFO] ============================================================
+2025-11-15T13:09:17 [INFO] 60초 대기 중...
+2025-11-15T13:09:39 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:09:43 [INFO] Agent 초기화 완료: TARGET_URL=https://example.com1, BACKEND_URL=http://localhost:8080, INTERVAL=60초
+2025-11-15T13:09:43 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:09:43 [INFO] 점검 주기: 60초
+2025-11-15T13:09:43 [INFO] ============================================================
+2025-11-15T13:09:43 [INFO] URL 점검 시작
+2025-11-15T13:09:43 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='example.com1', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1054d8d90>: Failed to resolve 'example.com1' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-15T13:09:43 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:09:43 [INFO] ============================================================
+2025-11-15T13:09:43 [INFO] 60초 대기 중...
+2025-11-15T13:09:54 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:17:58 [INFO] Agent 초기화 완료: TARGET_URL=https://example.com, BACKEND_URL=http://localhost:8080, INTERVAL=60초
+2025-11-15T13:17:58 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:17:58 [INFO] 점검 주기: 60초
+2025-11-15T13:17:58 [INFO] ============================================================
+2025-11-15T13:17:58 [INFO] URL 점검 시작
+2025-11-15T13:17:58 [INFO] URL 점검 완료: Status=200, Latency=641ms
+2025-11-15T13:17:59 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=641ms
+2025-11-15T13:17:59 [INFO] 점검 및 전송 완료
+2025-11-15T13:17:59 [INFO] ============================================================
+2025-11-15T13:17:59 [INFO] 60초 대기 중...
+2025-11-15T13:18:59 [INFO] ============================================================
+2025-11-15T13:18:59 [INFO] URL 점검 시작
+2025-11-15T13:18:59 [INFO] URL 점검 완료: Status=200, Latency=606ms
+2025-11-15T13:18:59 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=606ms
+2025-11-15T13:18:59 [INFO] 점검 및 전송 완료
+2025-11-15T13:18:59 [INFO] ============================================================
+2025-11-15T13:18:59 [INFO] 60초 대기 중...
+2025-11-15T13:19:59 [INFO] ============================================================
+2025-11-15T13:19:59 [INFO] URL 점검 시작
+2025-11-15T13:20:00 [INFO] URL 점검 완료: Status=200, Latency=625ms
+2025-11-15T13:20:00 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=625ms
+2025-11-15T13:20:00 [INFO] 점검 및 전송 완료
+2025-11-15T13:20:00 [INFO] ============================================================
+2025-11-15T13:20:00 [INFO] 60초 대기 중...
+2025-11-15T13:21:00 [INFO] ============================================================
+2025-11-15T13:21:00 [INFO] URL 점검 시작
+2025-11-15T13:21:00 [INFO] URL 점검 완료: Status=200, Latency=644ms
+2025-11-15T13:21:01 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=644ms
+2025-11-15T13:21:01 [INFO] 점검 및 전송 완료
+2025-11-15T13:21:01 [INFO] ============================================================
+2025-11-15T13:21:01 [INFO] 60초 대기 중...
+2025-11-15T13:21:31 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:21:32 [INFO] Agent 초기화 완료: TARGET_URL=https://example.com, BACKEND_URL=http://localhost:8080, INTERVAL=30초
+2025-11-15T13:21:32 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:21:32 [INFO] 점검 주기: 30초
+2025-11-15T13:21:32 [INFO] ============================================================
+2025-11-15T13:21:32 [INFO] URL 점검 시작
+2025-11-15T13:21:33 [INFO] URL 점검 완료: Status=200, Latency=644ms
+2025-11-15T13:21:33 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=644ms
+2025-11-15T13:21:33 [INFO] 점검 및 전송 완료
+2025-11-15T13:21:33 [INFO] ============================================================
+2025-11-15T13:21:33 [INFO] 30초 대기 중...
+2025-11-15T13:22:03 [INFO] ============================================================
+2025-11-15T13:22:03 [INFO] URL 점검 시작
+2025-11-15T13:22:03 [INFO] URL 점검 완료: Status=200, Latency=602ms
+2025-11-15T13:22:03 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=602ms
+2025-11-15T13:22:03 [INFO] 점검 및 전송 완료
+2025-11-15T13:22:03 [INFO] ============================================================
+2025-11-15T13:22:03 [INFO] 30초 대기 중...
+2025-11-15T13:22:33 [INFO] ============================================================
+2025-11-15T13:22:33 [INFO] URL 점검 시작
+2025-11-15T13:22:34 [INFO] URL 점검 완료: Status=200, Latency=632ms
+2025-11-15T13:22:34 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=632ms
+2025-11-15T13:22:34 [INFO] 점검 및 전송 완료
+2025-11-15T13:22:34 [INFO] ============================================================
+2025-11-15T13:22:34 [INFO] 30초 대기 중...
+2025-11-15T13:23:04 [INFO] ============================================================
+2025-11-15T13:23:04 [INFO] URL 점검 시작
+2025-11-15T13:23:04 [INFO] URL 점검 완료: Status=200, Latency=593ms
+2025-11-15T13:23:04 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=593ms
+2025-11-15T13:23:04 [INFO] 점검 및 전송 완료
+2025-11-15T13:23:04 [INFO] ============================================================
+2025-11-15T13:23:04 [INFO] 30초 대기 중...
+2025-11-15T13:23:35 [INFO] ============================================================
+2025-11-15T13:23:35 [INFO] URL 점검 시작
+2025-11-15T13:23:35 [INFO] URL 점검 완료: Status=200, Latency=631ms
+2025-11-15T13:23:35 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=631ms
+2025-11-15T13:23:35 [INFO] 점검 및 전송 완료
+2025-11-15T13:23:35 [INFO] ============================================================
+2025-11-15T13:23:35 [INFO] 30초 대기 중...
+2025-11-15T13:24:05 [INFO] ============================================================
+2025-11-15T13:24:05 [INFO] URL 점검 시작
+2025-11-15T13:24:06 [INFO] URL 점검 완료: Status=200, Latency=641ms
+2025-11-15T13:24:06 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=641ms
+2025-11-15T13:24:06 [INFO] 점검 및 전송 완료
+2025-11-15T13:24:06 [INFO] ============================================================
+2025-11-15T13:24:06 [INFO] 30초 대기 중...
+2025-11-15T13:24:36 [INFO] ============================================================
+2025-11-15T13:24:36 [INFO] URL 점검 시작
+2025-11-15T13:24:36 [INFO] URL 점검 완료: Status=200, Latency=593ms
+2025-11-15T13:24:36 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=593ms
+2025-11-15T13:24:36 [INFO] 점검 및 전송 완료
+2025-11-15T13:24:36 [INFO] ============================================================
+2025-11-15T13:24:36 [INFO] 30초 대기 중...
+2025-11-15T13:25:06 [INFO] ============================================================
+2025-11-15T13:25:06 [INFO] URL 점검 시작
+2025-11-15T13:25:07 [INFO] URL 점검 완료: Status=200, Latency=628ms
+2025-11-15T13:25:07 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=628ms
+2025-11-15T13:25:07 [INFO] 점검 및 전송 완료
+2025-11-15T13:25:07 [INFO] ============================================================
+2025-11-15T13:25:07 [INFO] 30초 대기 중...
+2025-11-15T13:25:37 [INFO] ============================================================
+2025-11-15T13:25:37 [INFO] URL 점검 시작
+2025-11-15T13:25:38 [INFO] URL 점검 완료: Status=200, Latency=644ms
+2025-11-15T13:25:38 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=644ms
+2025-11-15T13:25:38 [INFO] 점검 및 전송 완료
+2025-11-15T13:25:38 [INFO] ============================================================
+2025-11-15T13:25:38 [INFO] 30초 대기 중...
+2025-11-15T13:26:08 [INFO] ============================================================
+2025-11-15T13:26:08 [INFO] URL 점검 시작
+2025-11-15T13:26:09 [INFO] URL 점검 완료: Status=200, Latency=733ms
+2025-11-15T13:26:09 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=733ms
+2025-11-15T13:26:09 [INFO] 점검 및 전송 완료
+2025-11-15T13:26:09 [INFO] ============================================================
+2025-11-15T13:26:09 [INFO] 30초 대기 중...
+2025-11-15T13:26:39 [INFO] ============================================================
+2025-11-15T13:26:39 [INFO] URL 점검 시작
+2025-11-15T13:26:39 [INFO] URL 점검 완료: Status=200, Latency=646ms
+2025-11-15T13:26:39 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=646ms
+2025-11-15T13:26:39 [INFO] 점검 및 전송 완료
+2025-11-15T13:26:39 [INFO] ============================================================
+2025-11-15T13:26:39 [INFO] 30초 대기 중...
+2025-11-15T13:27:09 [INFO] ============================================================
+2025-11-15T13:27:09 [INFO] URL 점검 시작
+2025-11-15T13:27:10 [INFO] URL 점검 완료: Status=200, Latency=603ms
+2025-11-15T13:27:10 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=603ms
+2025-11-15T13:27:10 [INFO] 점검 및 전송 완료
+2025-11-15T13:27:10 [INFO] ============================================================
+2025-11-15T13:27:10 [INFO] 30초 대기 중...
+2025-11-15T13:27:40 [INFO] ============================================================
+2025-11-15T13:27:40 [INFO] URL 점검 시작
+2025-11-15T13:27:41 [INFO] URL 점검 완료: Status=200, Latency=635ms
+2025-11-15T13:27:41 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=635ms
+2025-11-15T13:27:41 [INFO] 점검 및 전송 완료
+2025-11-15T13:27:41 [INFO] ============================================================
+2025-11-15T13:27:41 [INFO] 30초 대기 중...
+2025-11-15T13:28:11 [INFO] ============================================================
+2025-11-15T13:28:11 [INFO] URL 점검 시작
+2025-11-15T13:28:11 [INFO] URL 점검 완료: Status=200, Latency=630ms
+2025-11-15T13:28:11 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=630ms
+2025-11-15T13:28:11 [INFO] 점검 및 전송 완료
+2025-11-15T13:28:11 [INFO] ============================================================
+2025-11-15T13:28:11 [INFO] 30초 대기 중...
+2025-11-15T13:28:41 [INFO] ============================================================
+2025-11-15T13:28:41 [INFO] URL 점검 시작
+2025-11-15T13:28:42 [INFO] URL 점검 완료: Status=200, Latency=634ms
+2025-11-15T13:28:42 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=634ms
+2025-11-15T13:28:42 [INFO] 점검 및 전송 완료
+2025-11-15T13:28:42 [INFO] ============================================================
+2025-11-15T13:28:42 [INFO] 30초 대기 중...
+2025-11-15T13:29:12 [INFO] ============================================================
+2025-11-15T13:29:12 [INFO] URL 점검 시작
+2025-11-15T13:29:13 [INFO] URL 점검 완료: Status=200, Latency=683ms
+2025-11-15T13:29:13 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=683ms
+2025-11-15T13:29:13 [INFO] 점검 및 전송 완료
+2025-11-15T13:29:13 [INFO] ============================================================
+2025-11-15T13:29:13 [INFO] 30초 대기 중...
+2025-11-15T13:29:43 [INFO] ============================================================
+2025-11-15T13:29:43 [INFO] URL 점검 시작
+2025-11-15T13:29:43 [INFO] URL 점검 완료: Status=200, Latency=620ms
+2025-11-15T13:29:43 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=620ms
+2025-11-15T13:29:43 [INFO] 점검 및 전송 완료
+2025-11-15T13:29:43 [INFO] ============================================================
+2025-11-15T13:29:43 [INFO] 30초 대기 중...
+2025-11-15T13:30:13 [INFO] ============================================================
+2025-11-15T13:30:13 [INFO] URL 점검 시작
+2025-11-15T13:30:14 [INFO] URL 점검 완료: Status=200, Latency=618ms
+2025-11-15T13:30:14 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=618ms
+2025-11-15T13:30:14 [INFO] 점검 및 전송 완료
+2025-11-15T13:30:14 [INFO] ============================================================
+2025-11-15T13:30:14 [INFO] 30초 대기 중...
+2025-11-15T13:30:44 [INFO] ============================================================
+2025-11-15T13:30:44 [INFO] URL 점검 시작
+2025-11-15T13:30:45 [INFO] URL 점검 완료: Status=200, Latency=645ms
+2025-11-15T13:30:45 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=645ms
+2025-11-15T13:30:45 [INFO] 점검 및 전송 완료
+2025-11-15T13:30:45 [INFO] ============================================================
+2025-11-15T13:30:45 [INFO] 30초 대기 중...
+2025-11-15T13:31:15 [INFO] ============================================================
+2025-11-15T13:31:15 [INFO] URL 점검 시작
+2025-11-15T13:31:15 [INFO] URL 점검 완료: Status=200, Latency=594ms
+2025-11-15T13:31:15 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=594ms
+2025-11-15T13:31:15 [INFO] 점검 및 전송 완료
+2025-11-15T13:31:15 [INFO] ============================================================
+2025-11-15T13:31:15 [INFO] 30초 대기 중...
+2025-11-15T13:31:45 [INFO] ============================================================
+2025-11-15T13:31:45 [INFO] URL 점검 시작
+2025-11-15T13:31:46 [INFO] URL 점검 완료: Status=200, Latency=634ms
+2025-11-15T13:31:46 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=634ms
+2025-11-15T13:31:46 [INFO] 점검 및 전송 완료
+2025-11-15T13:31:46 [INFO] ============================================================
+2025-11-15T13:31:46 [INFO] 30초 대기 중...
+2025-11-15T13:32:16 [INFO] ============================================================
+2025-11-15T13:32:16 [INFO] URL 점검 시작
+2025-11-15T13:32:17 [INFO] URL 점검 완료: Status=200, Latency=622ms
+2025-11-15T13:32:17 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=622ms
+2025-11-15T13:32:17 [INFO] 점검 및 전송 완료
+2025-11-15T13:32:17 [INFO] ============================================================
+2025-11-15T13:32:17 [INFO] 30초 대기 중...
+2025-11-15T13:32:47 [INFO] ============================================================
+2025-11-15T13:32:47 [INFO] URL 점검 시작
+2025-11-15T13:32:47 [INFO] URL 점검 완료: Status=200, Latency=609ms
+2025-11-15T13:32:47 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=609ms
+2025-11-15T13:32:47 [INFO] 점검 및 전송 완료
+2025-11-15T13:32:47 [INFO] ============================================================
+2025-11-15T13:32:47 [INFO] 30초 대기 중...
+2025-11-15T13:33:17 [INFO] ============================================================
+2025-11-15T13:33:17 [INFO] URL 점검 시작
+2025-11-15T13:33:18 [INFO] URL 점검 완료: Status=200, Latency=621ms
+2025-11-15T13:33:18 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=621ms
+2025-11-15T13:33:18 [INFO] 점검 및 전송 완료
+2025-11-15T13:33:18 [INFO] ============================================================
+2025-11-15T13:33:18 [INFO] 30초 대기 중...
+2025-11-15T13:33:48 [INFO] ============================================================
+2025-11-15T13:33:48 [INFO] URL 점검 시작
+2025-11-15T13:33:49 [INFO] URL 점검 완료: Status=200, Latency=622ms
+2025-11-15T13:33:49 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=622ms
+2025-11-15T13:33:49 [INFO] 점검 및 전송 완료
+2025-11-15T13:33:49 [INFO] ============================================================
+2025-11-15T13:33:49 [INFO] 30초 대기 중...
+2025-11-15T13:33:51 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:34:04 [INFO] Agent 초기화 완료: TARGET_URL=https://1example.com, BACKEND_URL=http://localhost:8080, INTERVAL=30초
+2025-11-15T13:34:04 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:34:04 [INFO] 점검 주기: 30초
+2025-11-15T13:34:04 [INFO] ============================================================
+2025-11-15T13:34:04 [INFO] URL 점검 시작
+2025-11-15T13:34:05 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='1example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))
+2025-11-15T13:34:05 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:34:05 [INFO] ============================================================
+2025-11-15T13:34:05 [INFO] 30초 대기 중...
+2025-11-15T13:34:35 [INFO] ============================================================
+2025-11-15T13:34:35 [INFO] URL 점검 시작
+2025-11-15T13:34:35 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='1example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))
+2025-11-15T13:34:35 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:34:35 [INFO] ============================================================
+2025-11-15T13:34:35 [INFO] 30초 대기 중...
+2025-11-15T13:35:05 [INFO] ============================================================
+2025-11-15T13:35:05 [INFO] URL 점검 시작
+2025-11-15T13:35:06 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='1example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))
+2025-11-15T13:35:06 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:35:06 [INFO] ============================================================
+2025-11-15T13:35:06 [INFO] 30초 대기 중...
+2025-11-15T13:35:36 [INFO] ============================================================
+2025-11-15T13:35:36 [INFO] URL 점검 시작
+2025-11-15T13:35:36 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='1example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))
+2025-11-15T13:35:36 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:35:36 [INFO] ============================================================
+2025-11-15T13:35:36 [INFO] 30초 대기 중...
+2025-11-15T13:36:06 [INFO] ============================================================
+2025-11-15T13:36:06 [INFO] URL 점검 시작
+2025-11-15T13:36:06 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='1example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))
+2025-11-15T13:36:06 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:36:06 [INFO] ============================================================
+2025-11-15T13:36:06 [INFO] 30초 대기 중...
+2025-11-15T13:36:36 [INFO] ============================================================
+2025-11-15T13:36:36 [INFO] URL 점검 시작
+2025-11-15T13:36:36 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='1example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))
+2025-11-15T13:36:36 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:36:36 [INFO] ============================================================
+2025-11-15T13:36:36 [INFO] 30초 대기 중...
+2025-11-15T13:37:06 [INFO] ============================================================
+2025-11-15T13:37:06 [INFO] URL 점검 시작
+2025-11-15T13:37:07 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='1example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))
+2025-11-15T13:37:07 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:37:07 [INFO] ============================================================
+2025-11-15T13:37:07 [INFO] 30초 대기 중...
+2025-11-15T13:37:15 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:37:24 [INFO] Agent 초기화 완료: TARGET_URL=https://1example.com, BACKEND_URL=http://localhost:8080, INTERVAL=30초
+2025-11-15T13:37:24 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:37:24 [INFO] 점검 주기: 30초
+2025-11-15T13:37:24 [INFO] ============================================================
+2025-11-15T13:37:24 [INFO] URL 점검 시작
+2025-11-15T13:37:24 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='1example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))
+2025-11-15T13:37:24 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:37:24 [INFO] ============================================================
+2025-11-15T13:37:24 [INFO] 30초 대기 중...
+2025-11-15T13:37:54 [INFO] ============================================================
+2025-11-15T13:37:54 [INFO] URL 점검 시작
+2025-11-15T13:37:55 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='1example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))
+2025-11-15T13:37:55 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:37:55 [INFO] ============================================================
+2025-11-15T13:37:55 [INFO] 30초 대기 중...
+2025-11-15T13:38:25 [INFO] ============================================================
+2025-11-15T13:38:25 [INFO] URL 점검 시작
+2025-11-15T13:38:25 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='1example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))
+2025-11-15T13:38:25 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:38:25 [INFO] ============================================================
+2025-11-15T13:38:25 [INFO] 30초 대기 중...
+2025-11-15T13:38:55 [INFO] ============================================================
+2025-11-15T13:38:55 [INFO] URL 점검 시작
+2025-11-15T13:38:55 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='1example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))
+2025-11-15T13:38:55 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:38:55 [INFO] ============================================================
+2025-11-15T13:38:55 [INFO] 30초 대기 중...
+2025-11-15T13:39:00 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:39:14 [INFO] Agent 초기화 완료: TARGET_URL=https://example.com, BACKEND_URL=http://localhost:8080, INTERVAL=30초
+2025-11-15T13:39:14 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:39:14 [INFO] 점검 주기: 30초
+2025-11-15T13:39:14 [INFO] ============================================================
+2025-11-15T13:39:14 [INFO] URL 점검 시작
+2025-11-15T13:39:15 [INFO] URL 점검 완료: Status=200, Latency=606ms
+2025-11-15T13:39:15 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=606ms
+2025-11-15T13:39:15 [INFO] 점검 및 전송 완료
+2025-11-15T13:39:15 [INFO] ============================================================
+2025-11-15T13:39:15 [INFO] 30초 대기 중...
+2025-11-15T13:39:45 [INFO] ============================================================
+2025-11-15T13:39:45 [INFO] URL 점검 시작
+2025-11-15T13:39:45 [INFO] URL 점검 완료: Status=200, Latency=608ms
+2025-11-15T13:39:45 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=608ms
+2025-11-15T13:39:45 [INFO] 점검 및 전송 완료
+2025-11-15T13:39:45 [INFO] ============================================================
+2025-11-15T13:39:45 [INFO] 30초 대기 중...
+2025-11-15T13:40:15 [INFO] ============================================================
+2025-11-15T13:40:15 [INFO] URL 점검 시작
+2025-11-15T13:40:16 [INFO] URL 점검 완료: Status=200, Latency=628ms
+2025-11-15T13:40:16 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=628ms
+2025-11-15T13:40:16 [INFO] 점검 및 전송 완료
+2025-11-15T13:40:16 [INFO] ============================================================
+2025-11-15T13:40:16 [INFO] 30초 대기 중...
+2025-11-15T13:40:46 [INFO] ============================================================
+2025-11-15T13:40:46 [INFO] URL 점검 시작
+2025-11-15T13:40:47 [INFO] URL 점검 완료: Status=200, Latency=632ms
+2025-11-15T13:40:47 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=632ms
+2025-11-15T13:40:47 [INFO] 점검 및 전송 완료
+2025-11-15T13:40:47 [INFO] ============================================================
+2025-11-15T13:40:47 [INFO] 30초 대기 중...
+2025-11-15T13:41:17 [INFO] ============================================================
+2025-11-15T13:41:17 [INFO] URL 점검 시작
+2025-11-15T13:41:17 [INFO] URL 점검 완료: Status=200, Latency=668ms
+2025-11-15T13:41:17 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=668ms
+2025-11-15T13:41:17 [INFO] 점검 및 전송 완료
+2025-11-15T13:41:17 [INFO] ============================================================
+2025-11-15T13:41:17 [INFO] 30초 대기 중...
+2025-11-15T13:41:47 [INFO] ============================================================
+2025-11-15T13:41:47 [INFO] URL 점검 시작
+2025-11-15T13:41:48 [INFO] URL 점검 완료: Status=200, Latency=624ms
+2025-11-15T13:41:48 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=624ms
+2025-11-15T13:41:48 [INFO] 점검 및 전송 완료
+2025-11-15T13:41:48 [INFO] ============================================================
+2025-11-15T13:41:48 [INFO] 30초 대기 중...
+2025-11-15T13:42:18 [INFO] ============================================================
+2025-11-15T13:42:18 [INFO] URL 점검 시작
+2025-11-15T13:42:19 [INFO] URL 점검 완료: Status=200, Latency=652ms
+2025-11-15T13:42:19 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=652ms
+2025-11-15T13:42:19 [INFO] 점검 및 전송 완료
+2025-11-15T13:42:19 [INFO] ============================================================
+2025-11-15T13:42:19 [INFO] 30초 대기 중...
+2025-11-15T13:42:49 [INFO] ============================================================
+2025-11-15T13:42:49 [INFO] URL 점검 시작
+2025-11-15T13:42:50 [INFO] URL 점검 완료: Status=200, Latency=604ms
+2025-11-15T13:42:50 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=604ms
+2025-11-15T13:42:50 [INFO] 점검 및 전송 완료
+2025-11-15T13:42:50 [INFO] ============================================================
+2025-11-15T13:42:50 [INFO] 30초 대기 중...
+2025-11-15T13:43:20 [INFO] ============================================================
+2025-11-15T13:43:20 [INFO] URL 점검 시작
+2025-11-15T13:43:20 [INFO] URL 점검 완료: Status=200, Latency=616ms
+2025-11-15T13:43:20 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=616ms
+2025-11-15T13:43:20 [INFO] 점검 및 전송 완료
+2025-11-15T13:43:20 [INFO] ============================================================
+2025-11-15T13:43:20 [INFO] 30초 대기 중...
+2025-11-15T13:43:22 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:43:26 [INFO] Agent 초기화 완료: TARGET_URL=https://learningwave.hoseo.edu, BACKEND_URL=http://localhost:8080, INTERVAL=30초
+2025-11-15T13:43:26 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:43:26 [INFO] 점검 주기: 30초
+2025-11-15T13:43:26 [INFO] ============================================================
+2025-11-15T13:43:26 [INFO] URL 점검 시작
+2025-11-15T13:43:26 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.edu', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x103728d90>: Failed to resolve 'learningwave.hoseo.edu' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-11-15T13:43:26 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:43:26 [INFO] ============================================================
+2025-11-15T13:43:26 [INFO] 30초 대기 중...
+2025-11-15T13:43:37 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:43:45 [INFO] Agent 초기화 완료: TARGET_URL=https://learningwave.hoseo.ac.kr, BACKEND_URL=http://localhost:8080, INTERVAL=30초
+2025-11-15T13:43:45 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:43:45 [INFO] 점검 주기: 30초
+2025-11-15T13:43:45 [INFO] ============================================================
+2025-11-15T13:43:45 [INFO] URL 점검 시작
+2025-11-15T13:43:45 [INFO] URL 점검 완료: Status=200, Latency=87ms
+2025-11-15T13:43:45 [INFO] POST /events 성공: URL=https://learningwave.hoseo.ac.kr, Status=200, Latency=87ms
+2025-11-15T13:43:45 [INFO] 점검 및 전송 완료
+2025-11-15T13:43:45 [INFO] ============================================================
+2025-11-15T13:43:45 [INFO] 30초 대기 중...
+2025-11-15T13:44:15 [INFO] ============================================================
+2025-11-15T13:44:15 [INFO] URL 점검 시작
+2025-11-15T13:44:15 [INFO] URL 점검 완료: Status=200, Latency=75ms
+2025-11-15T13:44:15 [INFO] POST /events 성공: URL=https://learningwave.hoseo.ac.kr, Status=200, Latency=75ms
+2025-11-15T13:44:15 [INFO] 점검 및 전송 완료
+2025-11-15T13:44:15 [INFO] ============================================================
+2025-11-15T13:44:15 [INFO] 30초 대기 중...
+2025-11-15T13:44:45 [INFO] ============================================================
+2025-11-15T13:44:45 [INFO] URL 점검 시작
+2025-11-15T13:44:45 [INFO] URL 점검 완료: Status=200, Latency=66ms
+2025-11-15T13:44:45 [INFO] POST /events 성공: URL=https://learningwave.hoseo.ac.kr, Status=200, Latency=66ms
+2025-11-15T13:44:45 [INFO] 점검 및 전송 완료
+2025-11-15T13:44:45 [INFO] ============================================================
+2025-11-15T13:44:45 [INFO] 30초 대기 중...
+2025-11-15T13:45:15 [INFO] ============================================================
+2025-11-15T13:45:15 [INFO] URL 점검 시작
+2025-11-15T13:45:15 [INFO] URL 점검 완료: Status=200, Latency=65ms
+2025-11-15T13:45:15 [INFO] POST /events 성공: URL=https://learningwave.hoseo.ac.kr, Status=200, Latency=65ms
+2025-11-15T13:45:15 [INFO] 점검 및 전송 완료
+2025-11-15T13:45:15 [INFO] ============================================================
+2025-11-15T13:45:15 [INFO] 30초 대기 중...
+2025-11-15T13:45:45 [INFO] ============================================================
+2025-11-15T13:45:45 [INFO] URL 점검 시작
+2025-11-15T13:45:45 [INFO] URL 점검 완료: Status=200, Latency=64ms
+2025-11-15T13:45:45 [INFO] POST /events 성공: URL=https://learningwave.hoseo.ac.kr, Status=200, Latency=64ms
+2025-11-15T13:45:45 [INFO] 점검 및 전송 완료
+2025-11-15T13:45:45 [INFO] ============================================================
+2025-11-15T13:45:45 [INFO] 30초 대기 중...
+2025-11-15T13:46:15 [INFO] ============================================================
+2025-11-15T13:46:15 [INFO] URL 점검 시작
+2025-11-15T13:46:15 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x104f86220>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:46:15 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:46:15 [INFO] ============================================================
+2025-11-15T13:46:15 [INFO] 30초 대기 중...
+2025-11-15T13:46:45 [INFO] ============================================================
+2025-11-15T13:46:45 [INFO] URL 점검 시작
+2025-11-15T13:46:45 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x104f869d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:46:45 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:46:45 [INFO] ============================================================
+2025-11-15T13:46:45 [INFO] 30초 대기 중...
+2025-11-15T13:47:15 [INFO] ============================================================
+2025-11-15T13:47:15 [INFO] URL 점검 시작
+2025-11-15T13:47:15 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x104fa3370>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:47:15 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:47:15 [INFO] ============================================================
+2025-11-15T13:47:15 [INFO] 30초 대기 중...
+2025-11-15T13:47:45 [INFO] ============================================================
+2025-11-15T13:47:45 [INFO] URL 점검 시작
+2025-11-15T13:47:45 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x104f86b80>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:47:45 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:47:45 [INFO] ============================================================
+2025-11-15T13:47:45 [INFO] 30초 대기 중...
+2025-11-15T13:48:15 [INFO] ============================================================
+2025-11-15T13:48:15 [INFO] URL 점검 시작
+2025-11-15T13:48:15 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x104f86070>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:48:15 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:48:15 [INFO] ============================================================
+2025-11-15T13:48:15 [INFO] 30초 대기 중...
+2025-11-15T13:48:45 [INFO] ============================================================
+2025-11-15T13:48:45 [INFO] URL 점검 시작
+2025-11-15T13:48:45 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x104f10e20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:48:45 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:48:45 [INFO] ============================================================
+2025-11-15T13:48:45 [INFO] 30초 대기 중...
+2025-11-15T13:49:15 [INFO] ============================================================
+2025-11-15T13:49:15 [INFO] URL 점검 시작
+2025-11-15T13:49:15 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x104fa3cd0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:49:15 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:49:15 [INFO] ============================================================
+2025-11-15T13:49:15 [INFO] 30초 대기 중...
+2025-11-15T13:49:22 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:49:23 [INFO] Agent 초기화 완료: TARGET_URL=https://learningwave.hoseo.ac.kr, BACKEND_URL=http://localhost:8080, INTERVAL=30초
+2025-11-15T13:49:23 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:49:23 [INFO] 점검 주기: 30초
+2025-11-15T13:49:23 [INFO] ============================================================
+2025-11-15T13:49:23 [INFO] URL 점검 시작
+2025-11-15T13:49:23 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x104588d90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:49:23 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:49:23 [INFO] ============================================================
+2025-11-15T13:49:23 [INFO] 30초 대기 중...
+2025-11-15T13:49:53 [INFO] ============================================================
+2025-11-15T13:49:53 [INFO] URL 점검 시작
+2025-11-15T13:49:53 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1045e9730>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:49:53 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:49:53 [INFO] ============================================================
+2025-11-15T13:49:53 [INFO] 30초 대기 중...
+2025-11-15T13:50:23 [INFO] ============================================================
+2025-11-15T13:50:23 [INFO] URL 점검 시작
+2025-11-15T13:50:23 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1045f3130>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:50:23 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:50:23 [INFO] ============================================================
+2025-11-15T13:50:23 [INFO] 30초 대기 중...
+2025-11-15T13:50:53 [INFO] ============================================================
+2025-11-15T13:50:53 [INFO] URL 점검 시작
+2025-11-15T13:50:53 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1045f3af0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:50:53 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:50:53 [INFO] ============================================================
+2025-11-15T13:50:53 [INFO] 30초 대기 중...
+2025-11-15T13:51:23 [INFO] ============================================================
+2025-11-15T13:51:23 [INFO] URL 점검 시작
+2025-11-15T13:51:23 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1045f39d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:51:23 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:51:23 [INFO] ============================================================
+2025-11-15T13:51:23 [INFO] 30초 대기 중...
+2025-11-15T13:51:53 [INFO] ============================================================
+2025-11-15T13:51:53 [INFO] URL 점검 시작
+2025-11-15T13:51:53 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1045e9f40>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:51:53 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:51:53 [INFO] ============================================================
+2025-11-15T13:51:53 [INFO] 30초 대기 중...
+2025-11-15T13:52:03 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:52:07 [INFO] Agent 초기화 완료: TARGET_URL=https://learningwave.hoseo.ac.kr, BACKEND_URL=http://localhost:8080, INTERVAL=30초
+2025-11-15T13:52:07 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:52:07 [INFO] 점검 주기: 30초
+2025-11-15T13:52:07 [INFO] ============================================================
+2025-11-15T13:52:07 [INFO] URL 점검 시작
+2025-11-15T13:52:07 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x101830d90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:52:07 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:52:07 [INFO] ============================================================
+2025-11-15T13:52:07 [INFO] 30초 대기 중...
+2025-11-15T13:52:37 [INFO] ============================================================
+2025-11-15T13:52:37 [INFO] URL 점검 시작
+2025-11-15T13:52:37 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x101891730>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:52:37 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:52:37 [INFO] ============================================================
+2025-11-15T13:52:37 [INFO] 30초 대기 중...
+2025-11-15T13:53:07 [INFO] ============================================================
+2025-11-15T13:53:07 [INFO] URL 점검 시작
+2025-11-15T13:53:07 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10189c130>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:53:07 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:53:07 [INFO] ============================================================
+2025-11-15T13:53:07 [INFO] 30초 대기 중...
+2025-11-15T13:53:37 [INFO] ============================================================
+2025-11-15T13:53:37 [INFO] URL 점검 시작
+2025-11-15T13:53:37 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10189caf0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:53:37 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:53:37 [INFO] ============================================================
+2025-11-15T13:53:37 [INFO] 30초 대기 중...
+2025-11-15T13:54:07 [INFO] ============================================================
+2025-11-15T13:54:07 [INFO] URL 점검 시작
+2025-11-15T13:54:07 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10189c9d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:54:07 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:54:07 [INFO] ============================================================
+2025-11-15T13:54:07 [INFO] 30초 대기 중...
+2025-11-15T13:54:37 [INFO] ============================================================
+2025-11-15T13:54:37 [INFO] URL 점검 시작
+2025-11-15T13:54:37 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x101891f40>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:54:37 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:54:37 [INFO] ============================================================
+2025-11-15T13:54:37 [INFO] 30초 대기 중...
+2025-11-15T13:54:54 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:54:57 [INFO] Agent 초기화 완료: TARGET_URL=https://learningwave.hoseo.ac.kr, BACKEND_URL=http://localhost:8080, INTERVAL=30초
+2025-11-15T13:54:57 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:54:57 [INFO] 점검 주기: 30초
+2025-11-15T13:54:57 [INFO] ============================================================
+2025-11-15T13:54:57 [INFO] URL 점검 시작
+2025-11-15T13:54:58 [ERROR] URL 점검 실패: HTTPSConnectionPool(host='learningwave.hoseo.ac.kr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x105d4cd90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-11-15T13:54:58 [ERROR] URL 점검 실패로 인해 전송하지 않음
+2025-11-15T13:54:58 [INFO] ============================================================
+2025-11-15T13:54:58 [INFO] 30초 대기 중...
+2025-11-15T13:55:10 [INFO] Agent 종료: 사용자 중단
+2025-11-15T13:55:34 [INFO] Agent 초기화 완료: TARGET_URL=https://example.com, BACKEND_URL=http://localhost:8080, INTERVAL=30초
+2025-11-15T13:55:34 [INFO] Agent 시작: 무한 루프 모드
+2025-11-15T13:55:34 [INFO] 점검 주기: 30초
+2025-11-15T13:55:34 [INFO] ============================================================
+2025-11-15T13:55:34 [INFO] URL 점검 시작
+2025-11-15T13:55:34 [INFO] URL 점검 완료: Status=200, Latency=644ms
+2025-11-15T13:55:34 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=644ms
+2025-11-15T13:55:34 [INFO] 점검 및 전송 완료
+2025-11-15T13:55:34 [INFO] ============================================================
+2025-11-15T13:55:34 [INFO] 30초 대기 중...
+2025-11-15T13:56:04 [INFO] ============================================================
+2025-11-15T13:56:04 [INFO] URL 점검 시작
+2025-11-15T13:56:05 [INFO] URL 점검 완료: Status=200, Latency=619ms
+2025-11-15T13:56:05 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=619ms
+2025-11-15T13:56:05 [INFO] 점검 및 전송 완료
+2025-11-15T13:56:05 [INFO] ============================================================
+2025-11-15T13:56:05 [INFO] 30초 대기 중...
+2025-11-15T13:56:35 [INFO] ============================================================
+2025-11-15T13:56:35 [INFO] URL 점검 시작
+2025-11-15T13:56:36 [INFO] URL 점검 완료: Status=200, Latency=614ms
+2025-11-15T13:56:36 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=614ms
+2025-11-15T13:56:36 [INFO] 점검 및 전송 완료
+2025-11-15T13:56:36 [INFO] ============================================================
+2025-11-15T13:56:36 [INFO] 30초 대기 중...
+2025-11-15T13:57:06 [INFO] ============================================================
+2025-11-15T13:57:06 [INFO] URL 점검 시작
+2025-11-15T13:57:06 [INFO] URL 점검 완료: Status=200, Latency=608ms
+2025-11-15T13:57:07 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=608ms
+2025-11-15T13:57:07 [INFO] 점검 및 전송 완료
+2025-11-15T13:57:07 [INFO] ============================================================
+2025-11-15T13:57:07 [INFO] 30초 대기 중...
+2025-11-15T13:57:37 [INFO] ============================================================
+2025-11-15T13:57:37 [INFO] URL 점검 시작
+2025-11-15T13:57:37 [INFO] URL 점검 완료: Status=200, Latency=663ms
+2025-11-15T13:57:37 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=663ms
+2025-11-15T13:57:37 [INFO] 점검 및 전송 완료
+2025-11-15T13:57:37 [INFO] ============================================================
+2025-11-15T13:57:37 [INFO] 30초 대기 중...
+2025-11-15T13:58:07 [INFO] ============================================================
+2025-11-15T13:58:07 [INFO] URL 점검 시작
+2025-11-15T13:58:08 [INFO] URL 점검 완료: Status=200, Latency=641ms
+2025-11-15T13:58:08 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=641ms
+2025-11-15T13:58:08 [INFO] 점검 및 전송 완료
+2025-11-15T13:58:08 [INFO] ============================================================
+2025-11-15T13:58:08 [INFO] 30초 대기 중...
+2025-11-15T13:58:38 [INFO] ============================================================
+2025-11-15T13:58:38 [INFO] URL 점검 시작
+2025-11-15T13:58:39 [INFO] URL 점검 완료: Status=200, Latency=623ms
+2025-11-15T13:58:39 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=623ms
+2025-11-15T13:58:39 [INFO] 점검 및 전송 완료
+2025-11-15T13:58:39 [INFO] ============================================================
+2025-11-15T13:58:39 [INFO] 30초 대기 중...
+2025-11-15T13:59:09 [INFO] ============================================================
+2025-11-15T13:59:09 [INFO] URL 점검 시작
+2025-11-15T13:59:09 [INFO] URL 점검 완료: Status=200, Latency=628ms
+2025-11-15T13:59:09 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=628ms
+2025-11-15T13:59:09 [INFO] 점검 및 전송 완료
+2025-11-15T13:59:09 [INFO] ============================================================
+2025-11-15T13:59:09 [INFO] 30초 대기 중...
+2025-11-15T13:59:39 [INFO] ============================================================
+2025-11-15T13:59:39 [INFO] URL 점검 시작
+2025-11-15T13:59:40 [INFO] URL 점검 완료: Status=200, Latency=640ms
+2025-11-15T13:59:40 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=640ms
+2025-11-15T13:59:40 [INFO] 점검 및 전송 완료
+2025-11-15T13:59:40 [INFO] ============================================================
+2025-11-15T13:59:40 [INFO] 30초 대기 중...
+2025-11-15T14:00:10 [INFO] ============================================================
+2025-11-15T14:00:10 [INFO] URL 점검 시작
+2025-11-15T14:00:11 [INFO] URL 점검 완료: Status=200, Latency=681ms
+2025-11-15T14:00:11 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=681ms
+2025-11-15T14:00:11 [INFO] 점검 및 전송 완료
+2025-11-15T14:00:11 [INFO] ============================================================
+2025-11-15T14:00:11 [INFO] 30초 대기 중...
+2025-11-15T14:00:41 [INFO] ============================================================
+2025-11-15T14:00:41 [INFO] URL 점검 시작
+2025-11-15T14:00:41 [INFO] URL 점검 완료: Status=200, Latency=626ms
+2025-11-15T14:00:41 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=626ms
+2025-11-15T14:00:41 [INFO] 점검 및 전송 완료
+2025-11-15T14:00:41 [INFO] ============================================================
+2025-11-15T14:00:41 [INFO] 30초 대기 중...
+2025-11-15T14:01:11 [INFO] ============================================================
+2025-11-15T14:01:11 [INFO] URL 점검 시작
+2025-11-15T14:01:12 [INFO] URL 점검 완료: Status=200, Latency=585ms
+2025-11-15T14:01:12 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=585ms
+2025-11-15T14:01:12 [INFO] 점검 및 전송 완료
+2025-11-15T14:01:12 [INFO] ============================================================
+2025-11-15T14:01:12 [INFO] 30초 대기 중...
+2025-11-15T14:01:42 [INFO] ============================================================
+2025-11-15T14:01:42 [INFO] URL 점검 시작
+2025-11-15T14:01:43 [INFO] URL 점검 완료: Status=200, Latency=660ms
+2025-11-15T14:01:43 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=660ms
+2025-11-15T14:01:43 [INFO] 점검 및 전송 완료
+2025-11-15T14:01:43 [INFO] ============================================================
+2025-11-15T14:01:43 [INFO] 30초 대기 중...
+2025-11-15T14:02:13 [INFO] ============================================================
+2025-11-15T14:02:13 [INFO] URL 점검 시작
+2025-11-15T14:02:13 [INFO] URL 점검 완료: Status=200, Latency=659ms
+2025-11-15T14:02:13 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=659ms
+2025-11-15T14:02:13 [INFO] 점검 및 전송 완료
+2025-11-15T14:02:13 [INFO] ============================================================
+2025-11-15T14:02:13 [INFO] 30초 대기 중...
+2025-11-15T14:02:43 [INFO] ============================================================
+2025-11-15T14:02:43 [INFO] URL 점검 시작
+2025-11-15T14:02:44 [INFO] URL 점검 완료: Status=200, Latency=593ms
+2025-11-15T14:02:44 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=593ms
+2025-11-15T14:02:44 [INFO] 점검 및 전송 완료
+2025-11-15T14:02:44 [INFO] ============================================================
+2025-11-15T14:02:44 [INFO] 30초 대기 중...
+2025-11-15T14:03:14 [INFO] ============================================================
+2025-11-15T14:03:14 [INFO] URL 점검 시작
+2025-11-15T14:03:15 [INFO] URL 점검 완료: Status=200, Latency=626ms
+2025-11-15T14:03:15 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=626ms
+2025-11-15T14:03:15 [INFO] 점검 및 전송 완료
+2025-11-15T14:03:15 [INFO] ============================================================
+2025-11-15T14:03:15 [INFO] 30초 대기 중...
+2025-11-15T14:03:45 [INFO] ============================================================
+2025-11-15T14:03:45 [INFO] URL 점검 시작
+2025-11-15T14:03:45 [INFO] URL 점검 완료: Status=200, Latency=630ms
+2025-11-15T14:03:45 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=630ms
+2025-11-15T14:03:45 [INFO] 점검 및 전송 완료
+2025-11-15T14:03:45 [INFO] ============================================================
+2025-11-15T14:03:45 [INFO] 30초 대기 중...
+2025-11-15T14:04:15 [INFO] ============================================================
+2025-11-15T14:04:15 [INFO] URL 점검 시작
+2025-11-15T14:04:16 [INFO] URL 점검 완료: Status=200, Latency=661ms
+2025-11-15T14:04:16 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=661ms
+2025-11-15T14:04:16 [INFO] 점검 및 전송 완료
+2025-11-15T14:04:16 [INFO] ============================================================
+2025-11-15T14:04:16 [INFO] 30초 대기 중...
+2025-11-15T14:04:46 [INFO] ============================================================
+2025-11-15T14:04:46 [INFO] URL 점검 시작
+2025-11-15T14:04:47 [INFO] URL 점검 완료: Status=200, Latency=639ms
+2025-11-15T14:04:47 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=639ms
+2025-11-15T14:04:47 [INFO] 점검 및 전송 완료
+2025-11-15T14:04:47 [INFO] ============================================================
+2025-11-15T14:04:47 [INFO] 30초 대기 중...
+2025-11-15T14:05:17 [INFO] ============================================================
+2025-11-15T14:05:17 [INFO] URL 점검 시작
+2025-11-15T14:05:17 [INFO] URL 점검 완료: Status=200, Latency=580ms
+2025-11-15T14:05:17 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=580ms
+2025-11-15T14:05:17 [INFO] 점검 및 전송 완료
+2025-11-15T14:05:17 [INFO] ============================================================
+2025-11-15T14:05:17 [INFO] 30초 대기 중...
+2025-11-15T14:05:47 [INFO] ============================================================
+2025-11-15T14:05:47 [INFO] URL 점검 시작
+2025-11-15T14:05:48 [INFO] URL 점검 완료: Status=200, Latency=597ms
+2025-11-15T14:05:48 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=597ms
+2025-11-15T14:05:48 [INFO] 점검 및 전송 완료
+2025-11-15T14:05:48 [INFO] ============================================================
+2025-11-15T14:05:48 [INFO] 30초 대기 중...
+2025-11-15T14:06:18 [INFO] ============================================================
+2025-11-15T14:06:18 [INFO] URL 점검 시작
+2025-11-15T14:06:19 [INFO] URL 점검 완료: Status=200, Latency=634ms
+2025-11-15T14:06:19 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=634ms
+2025-11-15T14:06:19 [INFO] 점검 및 전송 완료
+2025-11-15T14:06:19 [INFO] ============================================================
+2025-11-15T14:06:19 [INFO] 30초 대기 중...
+2025-11-15T14:06:49 [INFO] ============================================================
+2025-11-15T14:06:49 [INFO] URL 점검 시작
+2025-11-15T14:06:49 [INFO] URL 점검 완료: Status=200, Latency=594ms
+2025-11-15T14:06:49 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=594ms
+2025-11-15T14:06:49 [INFO] 점검 및 전송 완료
+2025-11-15T14:06:49 [INFO] ============================================================
+2025-11-15T14:06:49 [INFO] 30초 대기 중...
+2025-11-15T14:07:19 [INFO] ============================================================
+2025-11-15T14:07:19 [INFO] URL 점검 시작
+2025-11-15T14:07:20 [INFO] URL 점검 완료: Status=200, Latency=615ms
+2025-11-15T14:07:20 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=615ms
+2025-11-15T14:07:20 [INFO] 점검 및 전송 완료
+2025-11-15T14:07:20 [INFO] ============================================================
+2025-11-15T14:07:20 [INFO] 30초 대기 중...
+2025-11-15T14:07:50 [INFO] ============================================================
+2025-11-15T14:07:50 [INFO] URL 점검 시작
+2025-11-15T14:07:51 [INFO] URL 점검 완료: Status=200, Latency=591ms
+2025-11-15T14:07:51 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=591ms
+2025-11-15T14:07:51 [INFO] 점검 및 전송 완료
+2025-11-15T14:07:51 [INFO] ============================================================
+2025-11-15T14:07:51 [INFO] 30초 대기 중...
+2025-11-15T14:08:21 [INFO] ============================================================
+2025-11-15T14:08:21 [INFO] URL 점검 시작
+2025-11-15T14:08:21 [INFO] URL 점검 완료: Status=200, Latency=626ms
+2025-11-15T14:08:21 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=626ms
+2025-11-15T14:08:21 [INFO] 점검 및 전송 완료
+2025-11-15T14:08:21 [INFO] ============================================================
+2025-11-15T14:08:21 [INFO] 30초 대기 중...
+2025-11-15T14:08:51 [INFO] ============================================================
+2025-11-15T14:08:51 [INFO] URL 점검 시작
+2025-11-15T14:08:52 [INFO] URL 점검 완료: Status=200, Latency=602ms
+2025-11-15T14:08:52 [INFO] POST /events 성공: URL=https://example.com, Status=200, Latency=602ms
+2025-11-15T14:08:52 [INFO] 점검 및 전송 완료
+2025-11-15T14:08:52 [INFO] ============================================================
+2025-11-15T14:08:52 [INFO] 30초 대기 중...
+2025-11-15T14:08:55 [INFO] Agent 종료: 사용자 중단
